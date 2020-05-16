@@ -54,6 +54,16 @@ display: inline-block;
   cursor: pointer;
 }
 
+.buttoncontainer a {
+  position: relative;
+  top: 0px;
+}
+
+.buttoncontainer span {
+  position: relative;
+  top: -4px;
+}
+
 #eventButton {
   height: 100%;
   position: relative;
