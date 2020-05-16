@@ -1,0 +1,638 @@
+
+h2 {
+  color: white;
+  font-size: 4em;
+}
+
+
+.topbarbackground {
+  background: #54b997;
+  height: 4%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.topbar {
+  position: absolute;
+  left: 50%;
+}
+
+
+.newsletter {
+  text-decoration: none;
+  position: absolute;
+  left: -11em;
+  z-index: 1
+}
+
+
+
+.logo {
+  position: relative;
+  top: 1.5em;
+  left: 30em;
+  width: 50%;
+  height: 100px;
+}
+
+.navbar {
+  margin: 0 auto;
+}
+
+
+
+
+.button {
+  position: absolute;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  transition-duration: .4s;
+  cursor: pointer;
+}
+
+#eventButton {
+  position: relative;
+  top: -10px;
+  left: 13%;
+  background-color: #4CAF50;
+  color: white;
+  border: 2.25px solid #4CAF50;
+  padding: 8px 20px;
+}
+
+#eventButton:hover {
+  background-color: white;
+  color: black;
+}
+
+
+#joinButton {
+  position:relative;
+  top: -10px;
+  left: 10%;
+  background-color: #4CAF50;
+  color: white;
+  border: 2.25px solid #4CAF50;
+  padding: 8px 20px;
+
+}
+
+#joinButton:hover {
+  background-color: white;
+  color: black;
+}
+
+
+#donateButton {
+  position:relative;
+  top: -10px;
+  left: 8%;
+  background-color: #4CAF50;
+  color: white;
+  border: 2.25px solid #4CAF50;
+  padding: 8px 20px;
+}
+
+#donateButton:hover {
+  background-color: white;
+  color: black;
+}
+
+
+
+.fa {
+  position: absolute;
+
+ padding: 9px;
+ font-size: 20px;
+ width: 40px;
+ text-align: center;
+ text-decoration: none;
+ border-radius: .2em;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+ opacity: 0.7;
+}
+
+
+
+.fa-facebook {
+  position: relative;
+  right: .4em;
+ background: #3B5998;
+ color: white;
+
+
+}
+
+.fa-instagram {
+  position: relative;
+  right: -.2em;
+  background: #125688;
+ color: white;
+
+}
+
+
+.fa-twitter {
+  position: relative;
+  top: -8px;
+  right: 4em;
+  background: #55ACEE;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+nav {
+  z-index: 1;
+}
+
+
+nav ul {
+  position: relative;
+  bottom: 4.5em;
+  left: 10em;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 25px;
+  padding-top: 15px;
+
+}
+
+nav a {
+  color: #2b6054;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: #54b997;
+
+    position: absolute;
+    top: 40px;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+.navbarbackground {
+  background: white;
+  height: 10%;
+  position: absolute;
+  top: 3%;
+  left: 0;
+  right: 0;
+}
+
+
+
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  /* max-width: 1000px; */
+  position: relative;
+  top: 1em;
+  margin-top: 0;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 20em;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 25px;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 4em;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  position: absolute;
+  left: 4em;
+  border-radius: 3px 0 0 3px;
+}
+
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: relative;
+  top: -5em;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+
+
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+
+.slideshowandmission {
+
+}
+
+.mission {
+  position: absolute;
+  top: 70em;
+  left: 30em;
+}
+
+.mission h2 {
+
+}
+
+.mission p {
+  max-width: 35em;
+}
+
+
+.mission img {
+  position: absolute;
+  top: 2.5em;
+  left: 45em;
+  border-style: solid;
+  border-width: .5em;
+  border-color: #54b997;
+  width: 30em;
+}
+
+
+
+
+
+#gradient {
+  height: 140em;
+  background-color: white; /* For browsers that do not support gradients */
+  background-image: linear-gradient(white, #54b997); /* Standard syntax (must be last) */
+  text-align: center;
+}
+
+.hr {
+  border-width: medium;
+}
+
+
+
+.services {
+    position: relative;
+    top: 35em;
+    text-align: center;
+
+}
+
+.pictures {
+  height: 400px;
+  width: 400px;
+  border-style: solid;
+  border-color: white;
+  border-width: thick;
+  padding-bottom: 50px;
+  border-radius: 25px;
+}
+
+
+#service1 {
+ position: absolute;
+ top: 9em;
+ left: 400px;
+}
+
+#service2 {
+position: absolute;
+top: 9em;
+left: 52em;
+
+}
+
+#service3 {
+position: absolute;
+top: 9em;
+
+right: 380px;
+}
+
+
+
+#caption1 {
+  position:absolute;
+  top: 31em;
+  left: 550px;
+
+}
+
+#caption2 {
+  position:absolute;
+  top: 31em;
+  left: 62em;
+
+}
+
+#caption3 {
+  position:absolute;
+  top: 31em;
+  right: 550px;
+
+}
+
+
+
+
+
+#learnmore {
+  position: relative;
+  top: 18em;
+  padding: 25px;
+  margin: 15px;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: thick;
+  border-color: white;
+  display: inline;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+#learnmorelink {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+#learnmorelink .hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+#learnmorelink .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.campaigns {
+  position: absolute;
+  top: 157em;
+  left: 30em;
+}
+
+.campaigns h2 {
+  text-align: left;
+
+}
+
+.campaigns p {
+  max-width: 35em;
+  text-align: left;
+}
+
+
+.campaigns img {
+  position: absolute;
+  top: 2.5em;
+  left: 45em;
+  border-style: solid;
+  border-width: .5em;
+  border-color: white;
+
+}
+
+
+
+#learnmore2 {
+  position: relative;
+  top: 2em;
+  padding: 25px;
+
+  border-style: solid;
+  border-radius: 15px;
+  border-width: thick;
+  border-color: white;
+  display: inline;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+#learnmorelink2 {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+#learnmorelink2 .hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+#learnmorelink2 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+footer {
+
+  position: absolute;
+  background-color: #54b997;
+  top: 248em;
+  height: 8em;
+  right: 0;
+  left: 0;
+  bottom: 0;
+
+}
+
+footer .Logo {
+  float: left;
+  position: relative;
+  left: 30em;
+  top: 2em;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+
+}
+
+footer li {
+  list-style: none;
+  list-style-type: none;
+}
+
+footer .contact {
+  position: absolute;
+  top: 0;
+  right: 25em;
+}
+
+
+#facebookwords {
+  position: relative;
+  top: -2.5em;
+    right: -8em;
+}
+
+.facebook {
+  position: relative;
+  left: -2em;
+}
+
+
+#instawords{
+  position: relative;
+  top: -2.5em;
+    right: -8em;
+}
+
+.instagram {
+  position: relative;
+  left: -2em;
+}

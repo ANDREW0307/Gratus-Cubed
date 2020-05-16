@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+     <link href="http://allfont.net/allfont.css?fonts=anson" rel="stylesheet" type="text/css" />
+     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="Hover-master/css/hover.css" rel="stylesheet">
+    <link rel="stylesheet" href="homev3.css">
+    <meta charset="utf-8">
+    <title>Gratus Cubed home page</title>
+  </head>
+  <header>
+    <div class="topbarbackground">
+    </div>
+    <div class="topbar">
+        <p>Gratus-Cubed</p>
+        <div class="buttoncontainer">
+          <a href="../Events/Events.html" class="button" id="eventButton">Events</a>
+          <a href="../ContactInfo/ContactInfo.html" class="button" id="joinButton">Join</a>
+          <a href="../Donate/donate.html" class="button" id="donateButton">Donate</a>
+        </div>
+        <div class="topbarsocialcontainer">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="https://www.instagram.com/gratuscubedinc/" class="fa fa-instagram" target="_blank"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="https://www.youtube.com/channel/UCRIJz3w5bBjeXWs7_EfdU8Q/featured" class="fa fa-youtube" target="_blank"></a>
+        </div>
+
+
+    </div>
+
+    <div class="navbarbackground">
+    </div>
+    <a href="../HomeV3/homev3.html" class="hvr-grow">
+    <div class="logo">
+      <img src="Images/GratusLogo.png" alt="logo">
+      </a>
+      <div class="navbar">
+        <nav>
+          <ul>
+            <li><a href="../HomeV3/homev3.html" class="hvr-grow">Home</a></li>
+            <li><a href="../WhoWeAre/WhoWeAre.html" class="hvr-grow">About Us</a></li>
+            <li><a href="../TheIssues/TheIssues.html" class="hvr-grow">The Issues</a></li>
+            <li><a href="../OurServices/OurServices.html" class="hvr-grow">Our Services</a></li>
+            <li><a href="../Events/Events.html" class="hvr-grow">Events</a></li>
+            <li><a href="../ContactInfo/ContactInfo.html" class="hvr-grow">Contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+      </div>
+
+
+
+  </header>
+
+  <div class="slideshow">
+
+      <div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="Images/gratusmasks1_orig.jpeg" style="width:100%; height:55em;object-fit: cover;">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="Images/Donations.jpg" style="width:100%; height:55em;object-fit: cover;">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="Images/Evenmore.jpg" style="width:100%; height:55em; object-fit: cover;">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  </div>
+  <br>
+
+  <div style="text-align:center;">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+  </div>
+
+  <script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
+
+
+  <body>
+
+
+    <div class="missioncontainer">
+        <img src="Images/Schooldonations.jpg" alt="">
+        <a href="#" id="learnmorelink"><p id="learnmore" class="hvr-grow">Learn more</p></a>
+        <h1>Our Mission</h1>
+        <h3>What We Do</h3>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est</p>
+    </div>
+
+
+    <div class="currentprojectcontainer">
+      <div class="imagebox">
+        <div class="fling-minislide">
+          <img src="Images/Schooldonations.jpg" alt="Slide 4" />
+          <img src="Images/Schooldonations.jpg" alt="Slide 3" />
+          <img src="Images/Schooldonations.jpg" alt="Slide 2" />
+          <img src="Images/Schooldonations.jpg" alt="Slide 1" />
+        </div>
+      </div>
+      <div class="currentprojectbox">
+        <h1>OUR CURRENT PROJECT</h1>
+        <h3>Frontline Fighters: <i> The First Responders Fund</i></h3>
+        <a href="#" id="currentprojectlearnmorelink"><p id="currentprojectlearnmore" class="hvr-grow">Click to learn more</p></a>
+        <!-- <a href="#" id="currentprojectdonatelink"><p id="currentprojectdonate" class="hvr-grow">Donate</p></a> -->
+      </div>
+    </div>
+
+    <div class="servicescontainer">
+      <div class="textbox">
+        <h1>Our Services</h1>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipism ad minim veniam, t aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse non proident, sunt in culpa qui officia deserunt mollit anim id </p>
+      </div>
+      <div class="slideshowthing">
+        <div class="w3-content w3-display-container">
+          <img class="Slides" src="Images/Schooldonations.jpg" style="height: 23em; width:42em;">
+          <img class="Slides" src="Images/Donations.jpg" style="height: 23em; width:42em;">
+          <img class="Slides" src="Images/Schooldonations.jpg" style="height: 23em; width:42em;">
+          <img class="Slides" src="Images/Schooldonations.jpg" style="height: 23em; width:42em;">
+
+          <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)" >&#10094;</button>
+          <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)" style="position: relative; left: 39.35em; top: -10em;">&#10095;</button>
+        </div>
+
+      <script>
+          var slide = 1;
+          showDivs(slide);
+
+          function plusDivs(n) {
+            showDivs(slide += n);
+          }
+
+          function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("Slides");
+            if (n > x.length) {slide = 1}
+            if (n < 1) {slide = x.length}
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+            }
+            x[slide-1].style.display = "block";
+          }
+      </script>
+      </div>
+      <div class="serviceboxes" id="COVID-19box">
+        <img class="" src="Images/Schooldonations.jpg">
+        <h1>COVID-19 Fundraiser</h1>
+        <p>Caption</p>
+      </div>
+      <div class="serviceboxes" id="BethanyHousebox">
+        <img class="" src="Images/Schooldonations.jpg">
+        <h1>Bethany House</h1>
+        <p>Caption</p>
+      </div>
+      <div class="serviceboxes" id="candlelightvigilbox">
+        <img class="" src="Images/Schooldonations.jpg">
+        <h1>Candlelight Vigil</h1>
+        <p>Caption</p>
+      </div>
+      <div id="seemorebutton">
+        <a href="#" id="seemorelink"><p id="seemore" class="hvr-grow">See more</p></a>
+
+      </div>
+
+    </div>
+
+    <div class="witicontainer">
+      <h1>Why is this Important?</h1>
+      <p>Our organization is dedicated to helping those in need. According to many reports, Long Island has one of the highest homeless population with more than half being children. Of these people, 63% have monthly incomes below the federal poverty level, often having to choose between paying the rent or utilities and paying for food. It’s been shown that homeless children are more likely to experience behavioral issues such as reduced ability to learn social skills and impaired cognitive learning—— even permanent brain damage. We aspire to share and give our gratitude with everyone around us. especially to those who are less fortunate than us. </p>
+      <a href="#" id="moreaboutlink"><p id="moreabout" class="hvr-grow">LEARN MORE ABOUT THE ISSUES</p></a>
+
+    </div>
+
+    <div class="footercontainer">
+    <footer>
+      <a href="#" id="joinlink"><p id="join" class="hvr-grow">JOIN</p></a>
+      <a href="#" id="donatelink"><p id="donate" class="hvr-grow">DONATE</p></a>
+
+      <img class="footerlogo"src="Images/GratusLogo.png" alt="logo">
+      <div class="socialbuttons">
+
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="https://www.instagram.com/gratuscubedinc/" class="fa fa-instagram" target="_blank"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="https://www.youtube.com/channel/UCRIJz3w5bBjeXWs7_EfdU8Q/featured" class="fa fa-youtube"></a>
+      </div>
+      <div class="footerlinkbox">
+        <ul>
+          <li class="footerlist"><a class="hvr-grow" href="#">ABOUT US</a></li>
+          <li class="footerlist"><a class="hvr-grow" href="#">OUR CURRENT PROJECT</a></li>
+          <li class="footerlist"><a class="hvr-grow" href="#">PROJECTS AND SERVICES</a></li>
+          <li class="footerlist"><a class="hvr-grow" href="#">CONTACT INFO</a></li>
+        </ul>
+      </div>
+    </footer>
+    </div>
+
+
+
+  </body>
+</html>
