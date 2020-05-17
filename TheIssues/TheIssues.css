@@ -308,11 +308,11 @@ nav a:hover::before {
 
 
 .PovertyBox img {
-  width: 92%;
+  width: 65%;
   height: 60%;
   display: block;
-  margin: auto;
   position: relative;
+  left:7.0%;
   top: 5%;
   z-index: 0;
 }
@@ -321,11 +321,11 @@ nav a:hover::before {
   display: block;
   border-top: 65px solid #54b997;
 	border-right: 35px solid transparent;
-	width: 400px;
+	width: 300px;
   z-index: 1;
   position: absolute;
   top: 57%;
-  left: 4%;
+  left: 7%;
 }
 
 .PovertyBox h3 {
@@ -333,7 +333,7 @@ nav a:hover::before {
   top: 59%;
   z-index: 3;
   color: white;
-  left: 8%;
+  left: 11%;
 }
 
 .PovertyBox h4 {
@@ -368,11 +368,11 @@ nav a:hover::before {
 
 
 .CovidBox img {
-  width: 92%;
+  width: 65%;
   height: 60%;
   display: block;
-  margin: auto;
   position: relative;
+  left:7.0%;
   top: 5%;
   z-index: 0;
 }
@@ -381,11 +381,11 @@ nav a:hover::before {
   display: block;
   border-top: 65px solid #54b997;
 	border-right: 35px solid transparent;
-	width: 400px;
+	width: 300px;
   z-index: 1;
   position: absolute;
   top: 57%;
-  left: 4%;
+  left: 7%;
 }
 
 .CovidBox h3 {
@@ -393,7 +393,7 @@ nav a:hover::before {
   top: 59%;
   z-index: 3;
   color: white;
-  left: 8%;
+  left: 11%;
 }
 
 .CovidBox h4 {
