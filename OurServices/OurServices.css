@@ -274,6 +274,295 @@ nav a:hover::before {
 
 
 
+.servicesContainer {
+  height: 50%;
+
+}
+
+.servicesContainer h1 {
+  color: white;
+  font-size: 6.5em;
+  text-align: center;
+  position: relative;
+  top: 1em;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+}
+
+
+.gradient {
+  background-color: white; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#54b997, white); /* Standard syntax (must be last) */
+  height: 80%;
+}
+
+
+
+.projectsContainer {
+  width: 100%;
+  height: 105%;
+  background-color: #54b997;
+}
+
+
+
+.projectsContainer hr {
+  height: 5px;
+  background-color: white;
+  border-radius: 25%;
+  position: relative;
+  margin-left: 23%;
+  margin-right: 23%;
+  top: 15px;
+
+}
+
+
+.toptext {
+  color: white;
+  position: relative;
+  top: 20px;
+  text-align: center;
+  font-size: 4em;
+}
+
+p {
+  text-align: center;
+}
+
+.featuredProjectBox {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 40%;
+  background-color: rgb(228, 235, 225);
+  position: relative;
+  top: 5%;
+}
+
+.featuredProjectBox h1 {
+  color: #54b997;
+  position: relative;
+  top: -16.5em;
+  left: 31.5em;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+
+.featuredProjectBox h3 {
+  color: black;
+  position: relative;
+  left: 19em;
+  top: -10em;
+  font-size: 2.5em;
+  font-weight: 900;
+  line-height: 40px;
+}
+
+
+.featuredProjectBox p {
+  max-width: 32em;
+  text-align: left;
+  position: relative;
+  top: -25em;
+  left: 48em;
+}
+
+
+#learnmore {
+  position: relative;
+  left: 57%;
+  padding: 20px;
+  margin: 5px;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: thick;
+  border-color: #54b997;
+  display: inline;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  background-color: #54b997;
+}
+
+#learnmorelink {
+  text-decoration: none;
+  color: black;
+}
+
+#learnmorelink .hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+#learnmorelink .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+.firstProjectBox {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(228, 235, 225);
+  position: relative;
+  top: 8%;
+  margin-left: 20%;
+}
+
+.secondProjectBox {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(228, 235, 225);
+  position: relative;
+  margin-left: 40.25%;
+  top: -27.3%;
+}
+
+
+.thirdProjectBox {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(228, 235, 225);
+  position: relative;
+  top: -62.6%;
+  left:60.5%;
+}
+
+
+#campaign {
+  width: 60%;
+  top:3%;
+  margin: auto;
+  position: relative;
+  padding: 3px;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-style: solid;
+  border-radius:5px;
+  border-width: medium;
+  border-color: #54b997;
+  display: inline;
+  font-size: 1em;
+  font-weight: bold;
+  color: #54b997;
+}
+
+#campaignLink {
+  text-decoration: none;
+  color: black;
+}
+
+#campaignLink .hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+#campaignLink .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+.projectboxh1 {
+  position: relative;
+  left: 5%;
+  font-size: 25px;
+}
+
+.projectboxp {
+  text-align: left;
+  position: relative;
+  left: 5%;
+  max-width: 23em;
+}
+
+
+
+.HAIcontainer {
+
+  width: 100%;
+  height:30em;
+  background-color: rgb(228, 235, 225);
+}
+
+
+.anotherContainer {
+  width: 60%;
+  height: 75%;
+  background-color: #54b997;
+  margin: auto;
+  position: relative;
+  top: 12%;
+}
+
+.anotherContainer h1 {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 15%;
+  font-size: 3em;
+}
+
+
+#contact {
+  width: 45%;
+  padding: 10px;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: medium;
+  border-color: white;
+  display: inline;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  position: relative;
+  top: 40%;
+  margin-left: 27.5%;
+}
+
+#contactlink {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+#contactlink .hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+#contactlink .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
 
 
 
@@ -288,8 +577,10 @@ nav a:hover::before {
 width: 100%;
 height:27%;
 position: relative;
-top: 150%;
+bottom: 0;
 background-color: #54b997;
+margin: 0;
+
 }
 
 
@@ -462,9 +753,9 @@ left: 46.8%;
 
 .footerlinkbox {
   position: absolute;
-  top: 1em;
-  left: 24%;
-  font-size: 2em;
+  top: 21%;
+  left: 29%;
+  font-size: 1.5em;
   color: white;
 }
 
