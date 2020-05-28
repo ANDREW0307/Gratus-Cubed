@@ -6,6 +6,8 @@ html,body
 }
 
 
+
+
 h2 {
   color: white;
   font-size: 4em;
@@ -865,7 +867,9 @@ s  border-color: #38d1af;
   position: relative;
   top: 10%;
   width: 50%;
-  margin-left: 25%;
+  display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 .recruiting h1 {
@@ -877,7 +881,16 @@ s  border-color: #38d1af;
   top: 15%;
 }
 
+.recruiting hr {
+  width: 550px;
+  position: relative;
+  top: 27%;
+margin-left: auto;
+margin-right: auto;
 
+background-color: grey;
+height: 2px;
+}
 
 
 #fillform {
