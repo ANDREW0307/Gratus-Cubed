@@ -2,6 +2,7 @@ html,body
 {
     width: 100%;
     height: 100%;
+
 }
 
 
@@ -397,9 +398,8 @@ img {vertical-align: middle;}
 
   position: relative;
   top: 4em;
-  background-color: #5D6E1E;
-  font-family: 'Anson', arial;
-  color: white;
+  background-color: #11805a;
+  color: rgb(228, 235, 225);
   padding-left: 5em;
 }
 
@@ -432,44 +432,44 @@ img {vertical-align: middle;}
 }
 
 
+
+
+
+
+
+
 #learnmore {
   position: absolute;
   bottom: 1em;
-  right: 12em;
-  padding: 25px;
+  right: 9%;
+  padding: 15px 30px;
   margin: 15px;
   border-style: solid;
-  border-radius: 15px;
-  border-width: thick;
-  border-color: white;
+  border-width: medium;
   display: inline;
   font-size: 1em;
-  font-weight: bold;
+  font-weight: medium;
   color: white;
+
+s  border-color: #38d1af;
+
 }
 
 #learnmorelink {
+  font-family: 'Maven Pro', sans-serif;
   text-decoration: none;
-  color: black;
+  background-color: white;
+
+}
+
+#learnmore:hover {
+  background-color: white;
+  color: #2b6054;
+  transition: 0.3s;
 }
 
 
 
-#learnmorelink .hvr-grow {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-#learnmorelink .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
 
 
 .currentprojectcontainer {
@@ -652,21 +652,22 @@ img {vertical-align: middle;}
 
 
 .textbox h1 {
-  color: #5D6E1E;
+  color: #54b997;
   font-size: 4.5em;
   font-weight: 500;
   position: relative;
   top: 2em;
-  left: 2.25em;
+  left: 8%;
 }
 
 .textbox p {
-  color: #5D6E1E;
+  color: #151e24;
   position: relative;
   top: 7em;
-  left: 6.75em;
-  font-size: 1.5em;
+  left: 8%;
+  font-size: 18px;
   max-width: 25em;
+  font-family: 'Muli', sans-serif;
 }
 
 
@@ -693,9 +694,9 @@ img {vertical-align: middle;}
   position: relative;
   top: -39em;
   right: -23em;
-  color: #5D6E1E;
+  color: #3cab85;
   opacity: 1;
-  background-color: #94B447;
+  background-color: #106347;
 }
 
 .serviceboxes h1 {
@@ -704,13 +705,14 @@ img {vertical-align: middle;}
   top: 1.75em;
   font-weight: 100;
   font-size:2.5em;
+
 }
 
 
 .serviceboxes p {
   position: relative;
   font-weight:normal;
-  left: 40%;
+  left: 37%;
   top: 5em;
 }
 
@@ -788,15 +790,16 @@ img {vertical-align: middle;}
   margin: auto;
   border-style: solid;
   border-width: medium;
-  border-color: #94B447;
+  border-color: #2b6054;
   display: inline;
-  font-size: 3em;
+  font-size: 2em;
   font-weight: medium;
-  color: #94B447;
+  color: #2b6054;
   letter-spacing: normal;
 }
 
 #seemorelink {
+  font-family: 'Maven Pro', sans-serif;
   text-decoration: none;
   color: black;
   position: relative;
@@ -822,6 +825,11 @@ img {vertical-align: middle;}
   transform: scale(1.1);
 }
 
+#seemore:hover {
+  color: white;
+  background-color: #2b6054;
+  transition: 0.3s;
+}
 
 
 
@@ -837,14 +845,14 @@ img {vertical-align: middle;}
 .witicontainer {
   width: 100%;
   height: 50em;
-  background-color: #02704e;
+  background-color: #2b6054;
   position: relative;
 }
 
 
 
 .witicontainer h1 {
-  color: white;
+  color: #7cae49;
   font-size: 6em;
   font-weight: 500;
   position: relative;
@@ -869,16 +877,16 @@ img {vertical-align: middle;}
 
 
 #moreabout {
+  width: 25%;
   padding: 10px 20px;
   border-style: solid;
   border-width: medium;
-  border-color: #54b997;
-  font-size: 3em;
+  border-color: #38d1af;
+  font-size: 1.4em;
   font-weight: medium;
-  color: #54b997;
-  margin-left: 25%;
-  margin-right: 25%;
-  border-radius: 5%;
+
+  color: white;
+
 }
 
 #moreaboutlink {
@@ -889,8 +897,9 @@ img {vertical-align: middle;}
 
 
 #moreabout:hover {
-  background-color: #54b997;
-  color: white;
+  background-color: white;
+  color: #2b6054;
+  transition: 0.3s;
 }
 
 
