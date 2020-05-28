@@ -680,6 +680,9 @@ s  border-color: #38d1af;
   left: 10.5em;
 }
 
+.servicescontainer {
+  height: 95%;
+}
 
 
 .servicescontainer .slideshowthing img {
@@ -784,10 +787,13 @@ s  border-color: #38d1af;
 
 
 #seemore {
+  width: 17%;
+  margin-left: 41.5%;
+  margin-right: 41.5%;
+
   display: inline-block;
   position: relative;
   padding: 10px 20px;
-  margin: auto;
   border-style: solid;
   border-width: medium;
   border-color: #2b6054;
@@ -803,8 +809,7 @@ s  border-color: #38d1af;
   text-decoration: none;
   color: black;
   position: relative;
-  top: -33em;
-  left: 38.5%;
+  top: -36em;
 }
 
 
@@ -838,6 +843,23 @@ s  border-color: #38d1af;
 
 
 
+.test {
+  background-color: black;
+  width: 100%;
+  height: 60%;
+  position: relative;
+  top: 15%;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -852,10 +874,12 @@ s  border-color: #38d1af;
 
 
 .witicontainer h1 {
-  color: White;
-  font-size: 6em;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 4em;
   font-weight: 500;
   position: relative;
+  top: 5%;
   text-align: center;
   margin: 0 auto;
 }
@@ -865,11 +889,14 @@ s  border-color: #38d1af;
 .witicontainer p {
   color: white;
   position: relative;
+  top: 8%;
   font-weight:normal;
   max-width: 50em;
   font-size: 18px;
   text-align: center;
   margin: 0 auto;
+  font-family: 'Muli', sans-serif;
+  line-height: 32px;
 }
 
 
@@ -877,6 +904,8 @@ s  border-color: #38d1af;
 
 
 #moreabout {
+  position: relative;
+  top: 25%;
   width: 25%;
   padding: 10px 20px;
   border-style: solid;
