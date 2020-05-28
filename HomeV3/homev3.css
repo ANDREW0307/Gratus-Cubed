@@ -279,6 +279,17 @@ nav a:hover::before {
 
 
 
+.test {
+  width: 100%;
+  height: 20%;
+  background-color: black;
+}
+
+.test h1 {
+  color: #1c6354
+}
+
+
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0; }
 .mySlides {display: none}
@@ -296,7 +307,7 @@ img {vertical-align: middle;}
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 10em;
+  top: 6em;
   width: auto;
   padding: 16px;
   color: white;
@@ -398,7 +409,7 @@ img {vertical-align: middle;}
 
   position: relative;
   top: 4em;
-  background-color: #11805a;
+  background-color: #099e7f;
   color: rgb(228, 235, 225);
   padding-left: 5em;
 }
@@ -844,7 +855,6 @@ s  border-color: #38d1af;
 
 
 .recruiting {
-  background-color: rgb(228, 235, 225);
   width: 100%;
   height: 55%;
   position: relative;
