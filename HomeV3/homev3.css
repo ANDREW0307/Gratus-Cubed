@@ -844,7 +844,7 @@ s  border-color: #38d1af;
 
 .witicontainer {
   width: 100%;
-  height: 50em;
+  height: 47em;
   background-color: #2b6054;
   position: relative;
 }
@@ -852,7 +852,7 @@ s  border-color: #38d1af;
 
 
 .witicontainer h1 {
-  color: #7cae49;
+  color: White;
   font-size: 6em;
   font-weight: 500;
   position: relative;
@@ -867,7 +867,7 @@ s  border-color: #38d1af;
   position: relative;
   font-weight:normal;
   max-width: 50em;
-  font-size: 1.5em;
+  font-size: 18px;
   text-align: center;
   margin: 0 auto;
 }
