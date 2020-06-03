@@ -487,7 +487,7 @@ s  border-color: #38d1af;
 
 .currentprojectcontainer {
   width: 100%;
-  height: 45em;
+  height: 65%;
   margin-top: 15em;
   background-color: #02704e;
   z-index: -1;
@@ -501,7 +501,7 @@ s  border-color: #38d1af;
 
 }
 
-.fling-minislide {width:50%; height:35%; padding-bottom: 25%; overflow:hidden; position:relative; }
+.fling-minislide {width:50%; height:35%; padding-bottom: 25%; overflow:hidden; position:relative;  }
 .fling-minislide img{ position:absolute; animation:fling-minislide 12s infinite; opacity:0; width: 100%; height: auto; z-index: 0;}
 
 @keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
@@ -517,7 +517,7 @@ s  border-color: #38d1af;
   height: 60%;
   background-color: #54b997;
   z-index: 2;
-  top: -60%;
+  top: -55%;
   left: 52%;
   opacity: .9;
   padding-left: 1em;
@@ -700,7 +700,7 @@ s  border-color: #38d1af;
 
 .servicescontainer .slideshowthing img {
   object-fit: cover;
-
+  max-width: 100%;
 }
 
 
@@ -874,7 +874,7 @@ s  border-color: #38d1af;
 
 .recruiting h1 {
   font-family: 'Montserrat', sans-serif;
-  color: #54b997;
+  color: white;
   font-size: 45px;
   text-align: center;
   position: relative;
