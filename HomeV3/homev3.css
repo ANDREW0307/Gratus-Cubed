@@ -521,7 +521,7 @@ s  border-color: #38d1af;
   height: 60%;
   background-color: #54b997;
   z-index: 2;
-  top: 0;
+  top: -400px;
   left: 52%;
   opacity: .9;
   padding-left: 1em;
