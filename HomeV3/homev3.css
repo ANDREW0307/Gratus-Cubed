@@ -537,6 +537,7 @@ s  border-color: #38d1af;
 
 
 .currentprojectbox h3 {
+  max-width: 95%;
   color: white;
   font-size: 4em;
   position: relative;
