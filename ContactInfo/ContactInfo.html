@@ -8,6 +8,8 @@
  <link href="https://fonts.googleapis.com/css2?family=Muli:wght@600&display=swap" rel="stylesheet">
  <link rel="icon" href="Images/GratusLogo.png">
  <link rel="stylesheet" href="ContactInfo.css">
+ <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@700&display=swap" rel="stylesheet">
  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta charset="utf-8">
@@ -67,11 +69,36 @@
     </p>
   </div>
 
+<div class="submissionsbox">
+  <h1>Drop your questions and comments here!</h1>
+  <h2><span class="asterisk">*</span> <i>Indicates required field</i></h2>
+  <form name="contact" method="POST" data-netlify="true">
+    <p>
+      <label class="Input">First Name <span class="asterisk"> * </span><input type="text" name="name" /></label>
+      <div class="">
+      <p>  <label class="Input">Last Name <span class="asterisk"> * </span><input type="text" name="name" /></label></p>
 
-<div class="submissions">
-  
-
+      </div>
+    </p>
+    <p>
+      <label class="Input">Email <span class="asterisk"> * </span></label>
+    </p>
+    <input type="email" name="email"  class="thing"/>
+    <p>
+      <label class="Input">Phone Number</label>
+    </p>
+    <input type="tel" name="tel" class="thing"/>
+    <p>
+      <label class="Input"><span id="comment">Comment </span> </label>
+    </p>
+    <p><textarea name="message" class="Input"></textarea></p>
+    <p>
+      <button type="submit" id="submit">SUBMIT</button>
+    </p>
+  </form>
 </div>
+
+
 
 
   <div class="footercontainer">
