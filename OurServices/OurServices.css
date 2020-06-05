@@ -412,33 +412,41 @@ p {
 
 
 
-
 .firstProjectBox {
-  width: 400px;
-  height: 400px;
+  width: 19%;
+  height: 36%;
   background-color: rgb(228, 235, 225);
   position: relative;
-  top: 8%;
-  margin-left: 20%;
+  float: left;
+  margin: .75%;
+  left: 19.25%;
+  top: 6%;
 }
 
 .secondProjectBox {
-  width: 400px;
-  height: 400px;
+  width: 19%;
+  height: 36%;
   background-color: rgb(228, 235, 225);
   position: relative;
-  margin-left: 40.25%;
-  top: -27.3%;
+  float: left;
+  margin: .75%;
+  left: 19.25%;
+  top: 6%;
+  top: 6%;
+
 }
 
 
 .thirdProjectBox {
-  width: 400px;
-  height: 400px;
+  width: 19%;
+  height: 36%;
   background-color: rgb(228, 235, 225);
   position: relative;
-  top: -62.6%;
-  left:60.5%;
+  float: left;
+  margin: .75%;
+  left: 19.25%;
+  top: 6%;
+
 }
 
 
