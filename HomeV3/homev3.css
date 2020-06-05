@@ -138,7 +138,7 @@ h2 {
 
  padding: 9px;
  font-size: 1em;
- width: 2.25em;
+ width:2.25em;
  text-align: center;
  text-decoration: none;
 }
@@ -212,7 +212,7 @@ nav {
 nav ul {
   position: relative;
   bottom: 4em;
-  left: 10em;
+  left: 4%;
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
