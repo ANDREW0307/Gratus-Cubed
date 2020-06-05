@@ -345,7 +345,7 @@ p {
   color: #54b997;
   position: relative;
   top: -16.5em;
-  left: 31.5em;
+  left: 58%;
   font-size: 1.5em;
   font-weight: 900;
 }
@@ -354,7 +354,8 @@ p {
 .featuredProjectBox h3 {
   color: black;
   position: relative;
-  left: 19em;
+  left: 58%;
+
   top: -10em;
   font-size: 2.5em;
   font-weight: 900;
@@ -367,7 +368,8 @@ p {
   text-align: left;
   position: relative;
   top: -25em;
-  left: 48em;
+  left: 58%;
+
 }
 
 
