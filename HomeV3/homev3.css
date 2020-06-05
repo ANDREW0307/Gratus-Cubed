@@ -820,7 +820,7 @@ height: 2px;
 
 .witicontainer {
   width: 100%;
-  height: 47em;
+  height: 57%;
   background-color: #2b6054;
   position: relative;
 }
@@ -833,7 +833,7 @@ height: 2px;
   font-size: 4em;
   font-weight: 500;
   position: relative;
-  top: 5%;
+  top: 7%;
   text-align: center;
   margin: 0 auto;
 }
@@ -843,7 +843,7 @@ height: 2px;
 .witicontainer p {
   color: white;
   position: relative;
-  top: 8%;
+  top: 12%;
   font-weight:normal;
   max-width: 50em;
   font-size: 18px;
@@ -859,7 +859,7 @@ height: 2px;
 
 #moreabout {
   position: relative;
-  top: 25%;
+  top: 22%;
   width: 25%;
   padding: 10px 20px;
   border-style: solid;
