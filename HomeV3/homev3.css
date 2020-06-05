@@ -559,7 +559,7 @@ height: 2px;
 
 .currentprojectcontainer {
   width: 100%;
-  height: 75%;
+  height: 65%;
   position: relative;
   background-color: #02704e;
   z-index: -1;
@@ -569,13 +569,16 @@ height: 2px;
 .imagebox {
 
   position: relative;
-  top: 23%;
+  top: 18%;
   left: 13%;
 
 }
 
-.fling-minislide {width:50%; height:35%; padding-bottom: 25%; overflow:hidden; position:relative;  }
-.fling-minislide img{ position:absolute; animation:fling-minislide 12s infinite; opacity:0; width: 100%; height: 125%; z-index: 0;}
+
+
+.fling-minislide {width:50%; height:2%; padding-bottom: 25%; overflow:hidden; position:relative;  }
+
+.fling-minislide img{ position:absolute; animation:fling-minislide 12s infinite; opacity:0; z-index: 0;}
 
 @keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
 .fling-minislide img:nth-child(4){animation-delay:0s;}
