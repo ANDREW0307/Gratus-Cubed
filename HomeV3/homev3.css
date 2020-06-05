@@ -47,7 +47,7 @@ h2 {
   position: relative;
   right: 58%;
   z-index: 2;
-  top: -2.75em;
+  float:left;
 }
 
 .buttoncontainer {
@@ -138,7 +138,7 @@ h2 {
 
  padding: 9px;
  font-size: 1em;
- width: 40px;
+ width: 2.25em;
  text-align: center;
  text-decoration: none;
 }
@@ -152,6 +152,8 @@ h2 {
 .topbar .fa-facebook {
   position: absolute;
   left: 18.25em;
+  float:left;
+
  background: #3B5998;
  color: white;
 
@@ -161,6 +163,7 @@ h2 {
 .topbar .fa-instagram {
   position: absolute;
   left: 20.85em;
+  float:left;
 
   background: #125688;
  color: white;
@@ -171,6 +174,8 @@ h2 {
 .topbar .fa-twitter {
   position: absolute;
   left: 23.5em;
+  float:left;
+
   background: #55ACEE;
   color: white;
 }
