@@ -419,46 +419,27 @@ nav a:hover::before {
 
 
 
-#learnmore {
-  display: inline-block;
-  position: relative;
+#learnmorelink {
   padding: 10px 20px;
-  margin: auto;
   border-style: solid;
   border-width: medium;
   border-color: white;
-  display: inline;
   font-size: 1.5em;
   font-weight: light;
   color: white;
   letter-spacing: normal;
-
-}
-
-#learnmorelink {
   text-decoration: none;
-  color: black;
   position: absolute;
   top: 132%;
   left: 40%;
+  background-color: #02704e;
+  border-color: #02704e;
 }
 
-
-
-#learnmorelink .hvr-grow {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-#learnmorelink .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+#learnmorelink:hover {
+  background-color: white;
+  color: #02704e;
+  transition: 0.3s;
 }
 
 
@@ -494,8 +475,7 @@ nav a:hover::before {
 }
 
 
-.MAIYCcontainer #learnmore {
-  display: inline-block;
+.MAIYCcontainer #givebacklink {
   position: relative;
   padding: 10px 20px;
   margin: auto;
@@ -503,38 +483,24 @@ nav a:hover::before {
   border-width: medium;
   border-color: #02704e;
   display: inline;
-  font-size: 2em;
-  font-weight: light;
+  font-size: 1.25em;
+  font-weight: medium;
   color: #02704e;
   letter-spacing: normal;
-
-}
-
-.MAIYCcontainer #learnmorelink {
   text-decoration: none;
   color: #02704e;
   position: absolute;
   top: 202%;
-  left: 37%;
+  left: 42.5%;
+}
+
+#givebacklink:hover {
+  background-color: #02704e;
+  transition: 0.3s;
+  color: white;
 }
 
 
-
-.MAIYCcontainer #learnmorelink .hvr-grow {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-.MAIYCcontainer #learnmorelink .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
 
 
 
