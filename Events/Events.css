@@ -396,8 +396,7 @@ nav a:hover::before {
 }
 
 .calendarbar p {
-  width: 100%;
-  font-size:  16px;
+  font-size:  .95em;
   position: relative;
   top: 15px;
   text-align: center;
